@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacancies - Aevilon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+      <div class="company-name"><span class="company-name-primary">AEVILON</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="vacancies.html" class="active">Vacancies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Vacancies Hero -->
+    <section class="page-hero" style="background-image: url('assets/images/vacancies-bg.jpg');">
+        <div class="container">
+            <h1>Current Open Positions</h1>
+            <p>Join our team of owners and innovators shaping the future.</p>
+        </div>
+    </section>
+
+    <!-- Vacancies Content -->
+    <section class="vacancies-content">
+        <div class="container">
+            <div class="vacancies-filter">
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All Positions</button>
+                    <button class="filter-btn" data-filter="full-time">Full-Time</button>
+                    <button class="filter-btn" data-filter="part-time">Part-Time</button>
+                    <button class="filter-btn" data-filter="internship">Internship</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search positions...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+
+            <div class="vacancies-table">
+                <div class="table-header">
+                    <div class="header-item">Role</div>
+                    <div class="header-item">Type</div>
+                    <div class="header-item">Apply By</div>
+                    <div class="header-item">Action</div>
+                </div>
+                
+                <div class="table-row" data-category="full-time">
+                    <div class="table-cell">
+                        <h3>AI Developer</h3>
+                        <p>Develop and implement AI models for various business applications.</p>
+                    </div>
+                    <div class="table-cell">
+                        <span class="badge full-time">Full-Time</span>
+                    </div>
+                    <div class="table-cell">
+                        <p>15-July-2025</p>
+                    </div>
+                    <div class="table-cell">
+                        <button class="btn btn-primary apply-btn" data-job="AI Developer">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="table-row" data-category="internship">
+                    <div class="table-cell">
+                        <h3>Robotics Intern</h3>
+                        <p>Assist in developing robotic solutions for industrial applications.</p>
+                    </div>
+                    <div class="table-cell">
+                        <span class="badge internship">Internship</span>
+                    </div>
+                    <div class="table-cell">
+                        <p>30-June-2025</p>
+                    </div>
+                    <div class="table-cell">
+                        <button class="btn btn-primary apply-btn" data-job="Robotics Intern">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="table-row" data-category="full-time">
+                    <div class="table-cell">
+                        <h3>Digital Marketing Associate</h3>
+                        <p>Create and manage digital campaigns across multiple platforms.</p>
+                    </div>
+                    <div class="table-cell">
+                        <span class="badge full-time">Full-Time</span>
+                    </div>
+                    <div class="table-cell">
+                        <p>10-July-2025</p>
+                    </div>
+                    <div class="table-cell">
+                        <button class="btn btn-primary apply-btn" data-job="Digital Marketing Associate">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="table-row" data-category="part-time">
+                    <div class="table-cell">
+                        <h3>Drone R&D Engineer</h3>
+                        <p>Research and develop new drone technologies and applications.</p>
+                    </div>
+                    <div class="table-cell">
+                        <span class="badge part-time">Part-Time</span>
+                    </div>
+                    <div class="table-cell">
+                        <p>05-July-2025</p>
+                    </div>
+                    <div class="table-cell">
+                        <button class="btn btn-primary apply-btn" data-job="Drone R&D Engineer">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="table-row" data-category="full-time">
+                    <div class="table-cell">
+                        <h3>Business Development Officer</h3>
+                        <p>Identify new business opportunities and build client relationships.</p>
+                    </div>
+                    <div class="table-cell">
+                        <span class="badge full-time">Full-Time</span>
+                    </div>
+                    <div class="table-cell">
+                        <p>20-July-2025</p>
+                    </div>
+                    <div class="table-cell">
+                        <button class="btn btn-primary apply-btn" data-job="Business Development Officer">Apply Now</button>
+                    </div>
+                </div>
+                
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Robotics Intern</h3>
+        <p>Assist in developing robotic solutions for industrial applications.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>30-June-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Robotics Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Digital Marketing Intern</h3>
+        <p>Support digital campaigns and content creation efforts.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>10-July-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Digital Marketing Intern">Apply Now</button>
+    </div>
+</div>
+
+<div class="table-row" data-category="part-time">
+    <div class="table-cell">
+        <h3>Drone R&D Engineer (Part-Time)</h3>
+        <p>Research and develop new drone technologies and applications on a part-time basis.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge part-time">Part-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>05-July-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Drone R&D Engineer (Part-Time)">Apply Now</button>
+    </div>
+</div>
+
+<div class="table-row" data-category="full-time">
+    <div class="table-cell">
+        <h3>Business Development Officer</h3>
+        <p>Identify new business opportunities and build client relationships.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge full-time">Full-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>20-July-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Business Development Officer">Apply Now</button>
+    </div>
+</div>
+
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Electronics Engineering Intern</h3>
+        <p>Assist in the design and testing of electronic circuits and systems.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>15-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Electronics Engineering Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Software Engineering Intern</h3>
+        <p>Contribute to the development of software applications and platforms.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>01-September-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Software Engineering Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Civil Engineering Intern</h3>
+        <p>Assist with project planning and site inspections for civil projects.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>25-July-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Civil Engineering Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Design Engineering Intern</h3>
+        <p>Support design processes and CAD modeling for various products.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>05-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Design Engineering Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Electrical Engineering Intern</h3>
+        <p>Aid in electrical system design, installation, and maintenance.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>20-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Electrical Engineering Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Artificial Intelligence Intern</h3>
+        <p>Work on AI model development and data analysis.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>12-September-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Artificial Intelligence Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>UI/UX Design Intern</h3>
+        <p>Assist in creating user-friendly interfaces and experiences.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>08-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="UI/UX Design Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Cloud Engineering Intern</h3>
+        <p>Support cloud infrastructure management and deployment.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>01-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Cloud Engineering Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Aeronautical Engineering Intern</h3>
+        <p>Contribute to aerospace design and analysis projects.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>18-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Aeronautical Engineering Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Mechanical Engineering Intern</h3>
+        <p>Assist in mechanical system design, testing, and optimization.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>03-September-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Mechanical Engineering Intern">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="internship">
+    <div class="table-cell">
+        <h3>Data Science Intern</h3>
+        <p>Support data analysis and model building initiatives.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge internship">Internship</span>
+    </div>
+    <div class="table-cell">
+        <p>29-July-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Data Science Intern">Apply Now</button>
+    </div>
+</div>
+
+
+<div class="table-row" data-category="full-time">
+    <div class="table-cell">
+        <h3>Senior Software Engineer</h3>
+        <p>Lead complex software development projects and mentor junior developers.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge full-time">Full-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>28-July-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Senior Software Engineer">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="full-time">
+    <div class="table-cell">
+        <h3>Marketing Director</h3>
+        <p>Develop and execute comprehensive marketing strategies for the company.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge full-time">Full-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>05-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Marketing Director">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="full-time">
+    <div class="table-cell">
+        <h3>Chief Project Officer</h3>
+        <p>Oversee all project portfolios and ensure strategic alignment.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge full-time">Full-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>07-September-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Chief Project Officer">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="full-time">
+    <div class="table-cell">
+        <h3>Cybersecurity Architect</h3>
+        <p>Design and implement robust cybersecurity frameworks and solutions.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge full-time">Full-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>04-September-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Cybersecurity Architect">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="full-time">
+    <div class="table-cell">
+        <h3>DevOps Lead Engineer</h3>
+        <p>Lead the DevOps team in automating and optimizing software delivery pipelines.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge full-time">Full-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>11-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="DevOps Lead Engineer">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="full-time">
+    <div class="table-cell">
+        <h3>Product Manager</h3>
+        <p>Define product vision, strategy, and roadmap, ensuring successful product delivery.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge full-time">Full-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>24-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Product Manager">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="full-time">
+    <div class="table-cell">
+        <h3>Management Consultant</h3>
+        <p>Provide strategic advice to clients to improve business performance.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge full-time">Full-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>18-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Management Consultant">Apply Now</button>
+    </div>
+</div>
+
+
+<div class="table-row" data-category="part-time">
+    <div class="table-cell">
+        <h3>Part-Time Software Developer</h3>
+        <p>Contribute to ongoing software projects on a flexible schedule.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge part-time">Part-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>20-July-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Part-Time Software Developer">Apply Now</button>
+    </div>
+</div>
+<div class="table-row" data-category="part-time">
+    <div class="table-cell">
+        <h3>Part-Time Marketing Assistant</h3>
+        <p>Support marketing team with administrative and creative tasks.</p>
+    </div>
+    <div class="table-cell">
+        <span class="badge part-time">Part-Time</span>
+    </div>
+    <div class="table-cell">
+        <p>01-August-2025</p>
+    </div>
+    <div class="table-cell">
+        <button class="btn btn-primary apply-btn" data-job="Part-Time Marketing Assistant">Apply Now</button>
+    </div>
+</div>
+
+
+                
+                <div class="table-row" data-category="part-time">
+                    <div class="table-cell">
+                        <h3>IT Support Analyst</h3>
+                        <p>Provide technical support and troubleshooting for internal systems.</p>
+                    </div>
+                    <div class="table-cell">
+                        <span class="badge part-time">Part-Time</span>
+                    </div>
+                    <div class="table-cell">
+                        <p>12-July-2025</p>
+                    </div>
+                    <div class="table-cell">
+                        <button class="btn btn-primary apply-btn" data-job="IT Support Analyst">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="table-row" data-category="full-time">
+                    <div class="table-cell">
+                        <h3>EV Systems Engineer</h3>
+                        <p>Design and develop electric vehicle systems and components.</p>
+                    </div>
+                    <div class="table-cell">
+                        <span class="badge full-time">Full-Time</span>
+                    </div>
+                    <div class="table-cell">
+                        <p>18-July-2025</p>
+                    </div>
+                    <div class="table-cell">
+                        <button class="btn btn-primary apply-btn" data-job="EV Systems Engineer">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vacancies-cta">
+                <p>Don't see your perfect role? We're always looking for talented individuals.</p>
+                <a href="contact.html" class="btn btn-outline">Submit Your Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Modal -->
+    <div class="modal-overlay" id="application-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3>Apply for <span id="job-title"></span></h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="application-form" enctype="multipart/form-data">
+                    <div id="form-message" style="display:none;margin-bottom:15px;"></div>
+                    <input type="hidden" name="position" id="position">
+                    <div class="form-group">
+                        <label for="name">Full Name*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number*</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="resume">Upload Resume (PDF)*</label>
+                        <input type="file" id="resume" name="resume" accept=".pdf" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cover-letter">Cover Letter</label>
+                        <textarea id="cover-letter" name="cover-letter" rows="5"></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="agree" name="agree" required>
+                        <label for="agree">I agree to the privacy policy and terms of service*</label>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="vacancies.html">Vacancies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#it">IT Services</a></li>
+                        <li><a href="services.html#ai">Artificial Intelligence</a></li>
+                        <li><a href="services.html#robotics">Robotics</a></li>
+                        <li><a href="services.html#ev">Electric Vehicles</a></li>
+                        <li><a href="services.html#drones">Drones</a></li>
+                        <li><a href="services.html#marketing">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/company/Aevilon" target="_blank"><i class="fab fa-linkedin"style="color: black;"></i></a>
+                        <a href="https://x.com/Aevilon" target="_blank"><i class="fa-brands fa-meta"style="color: black;"></i></a>
+                        <a href="https://instagram.com/Aevilon" target="_blank"><i class="fab fa-instagram"style="color: black;"></i></a>
+                        <a href="https://youtube.com/Aevilon" target="_blank"><i class="fab fa-youtube"style="color: black;"></i></a>
+                    </div>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@Aevilon.com</p>
+                        <p><i class="fas fa-phone"></i> +91-9970147351</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aevilon Pvt. Ltd. All Rights Reserved.</p>
+                <p>Built with vision. Driven by ownership.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-icon">
+            <i class="fas fa-comment-dots"></i>
+        </div>
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <h3>Aeon Assistant</h3>
+                <button class="close-chatbot"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="chatbot-message bot-message">
+                    <p>Hi there! I'm Aeon, your virtual assistant. How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input" placeholder="Type your message...">
+                <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Vacancies filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelector('.filter-btn.active').classList.remove('active');
+                this.classList.add('active');
+                
+                const filter = this.dataset.filter;
+                const rows = document.querySelectorAll('.table-row');
+                
+                rows.forEach(row => {
+                    if (filter === 'all' || row.dataset.category === filter) {
+                        row.style.display = 'flex';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Search functionality
+        const searchInput = document.querySelector('.search-box input');
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const rows = document.querySelectorAll('.table-row');
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                if (text.includes(searchTerm)) {
+                    row.style.display = 'flex';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
+
+        // Application modal
+        const applyBtns = document.querySelectorAll('.apply-btn');
+        const modal = document.getElementById('application-modal');
+        const closeModal = document.querySelector('.close-modal');
+        const jobTitle = document.getElementById('job-title');
+        const positionInput = document.getElementById('position');
+        
+        applyBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const job = this.dataset.job;
+                jobTitle.textContent = job;
+                positionInput.value = job;
+                modal.style.display = 'flex';
+            });
+        });
+        
+        closeModal.addEventListener('click', function() {
+            modal.style.display = 'none';
+        });
+        
+        window.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+    <script src="assets/js/chatbot.js"></script>
+</body>
+</html>
